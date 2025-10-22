@@ -48,9 +48,18 @@
             <div class="banner__wrapper-form">
                 <form action="" class="model" id="bannerForm">
                     <h3 class="model__title">Try Your <span class="model__word" >FREE</span> Trial Today</h3>
-                    <input type="text" class="model__input" placeholder="Name">
-                    <input type="email" class="model__input" placeholder="Email">
-                    <input type="password" class="model__input" placeholder="Password">
+                    <div class="model__group">
+                        <input class="model__input" type="text" id="name" placeholder="">
+                        <label class="model__label" for="name">Name</label>
+                    </div>
+                    <div class="model__group">
+                        <input class="model__input" type="email" id="email" placeholder="">
+                        <label class="model__label" for="email">Email</label>
+                    </div>
+                    <div class="model__group">
+                        <input class="model__input" type="password" id="password" placeholder="">
+                        <label class="model__label" for="password">Password</label>
+                    </div>
                 </form>
                 <button class="model__button button " form="bannerForm">Get Started</button>
             </div>
@@ -391,4 +400,3 @@
     </footer>
 </body>
 </html>
-

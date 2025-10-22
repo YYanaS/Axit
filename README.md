@@ -2,20 +2,20 @@
 
 ![Project Preview](img/preview__img.webp)
 
-Это современный, адаптивный лендинг, созданный по макету Axure. Проект демонстрирует вертску с использованием семантического HTML5 и современных возможностей CSS3, включая кастомные свойства (CSS Variables) и Flexbox.
+This is a modern, adaptive landing page created from an Axure mockup. The project demonstrates front-end development using semantic HTML5 and modern CSS3 features, including custom properties (CSS Variables) and Flexbox.
 
-## 🚀 О проекте
+## 🚀 About the Project
 
-Данный проект представляет собой лендинг с продуманной структурой и интерактивными элементами. 
+This project presents a landing page with a well-thought-out structure and interactive elements.
 
-## 🛠 Технологии
+## 🛠 Technologies
 
-- **HTML5** - Семантическая и доступная разметка.
-- **CSS3** - Стилизация с использованием:
-  - CSS Custom Properties (переменные) для цветов, шрифтов и размеров.
-  - Flexbox для построения макетов.
-  - Псевдоклассы (`:hover`, `:active`, `:focus`) для интерактивности.
-  - Позиционирование (`relative`, `absolute`).
-  - Плавные переходы (`transition`).
-- **Google Fonts** - Шрифты `Raleway` и `Open Sans`.
-- **SVG** - Векторные иконки для социальных сетей.
+- **HTML5** - Semantic and accessible markup.
+- **CSS3** - Styling using:
+  - CSS Custom Properties for colors, fonts, and sizes.
+  - Flexbox for layout construction.
+  - Pseudo-classes (`:hover`, `:active`, `:focus`) for interactivity.
+  - Positioning (`relative`, `absolute`).
+  - Smooth transitions (`transition`).
+- **Google Fonts** - Fonts `Raleway` and `Open Sans`.
+- **SVG** - Vector icons for social networks.

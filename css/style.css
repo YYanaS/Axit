@@ -219,23 +219,38 @@ body{
     color: var(--color-border-secondar);
 }
 
+.model__group {
+    position: relative;
+}
+.model__group:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+input:focus + label, input:not(:placeholder-shown) + label {
+    transform: translateY(-50%);
+    top: 0;
+}
+
+.model__label {
+    display: block;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-family-secondar);
+    line-height: 19px;
+    color: #BDBDBD;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
 .model__input {
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    padding: 10px 2px;
     width: 100%;
-    font-family: var(--font-family-secondar);
+    padding: 16px 0;
     font-size: var(--font-size-xs);
+    font-family: var(--font-family-secondar);
     line-height: 19px;
-}
-
-.model__input:not(:last-child) {
-    margin-bottom: 31px;
-}
-
-.model__input::placeholder {
-    color: #BDBDBD;
-
 }
 
 .model__input:hover {
@@ -746,5 +761,5 @@ th.table__cell--header{
 #pricing,
 #reviews,
 #contact {
-    scroll-margin-top: 75px;
+    scroll-margin: 80px;
 }
